@@ -1,12 +1,24 @@
+html,
+body{
+    height: 100%;
+}
+.container{
+    background: white;
+    height: 100%;
+    
+}
 .header {
     background:rgb(84, 180, 212);
-    /* padding: 20px 0px 20px 0px; */
-    overflow: hidden;
+    width: 100%;
+    height: 10%;
 }  
-.header .header-left{
+.header .main{
     background: black;
-    padding: 10px;
-    overflow: hidden;
+    width:1002px;    
+    height: 50%;
+    position: relative;
+    left: 181px;
+    top: 16px;
 }
 .header .main .left{
     position: relative;
