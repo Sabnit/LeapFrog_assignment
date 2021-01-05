@@ -1,0 +1,105 @@
+.header {
+    background:rgb(84, 180, 212);
+    /* padding: 20px 0px 20px 0px; */
+    overflow: hidden;
+}  
+.header .header-left{
+    background: black;
+    padding: 10px;
+    overflow: hidden;
+}
+.header .main .left{
+    position: relative;
+    background: hotpink;
+    width: 500px;
+    height: 100%;    
+}
+.header .main .right{
+    position: relative;
+    background: greenyellow;
+    width: 200px;
+    height: 100%;    
+    left: 802px;
+}
+.navbar{
+    background: gray;
+    width: 100%;
+    height: 5%;
+}
+.navbar .main{
+    background: blue;
+    width: 1002px;
+    height: 50%;
+    position: relative;
+    left: 181px;
+    top: 8px;
+}
+.navbar .main .left{
+    position: relative;
+    background: purple;
+    width: 450px;
+    height: 100%;
+}
+.navbar .main .right{
+    position: relative;
+    background: yellow;
+    width: 300px;
+    height: 100%;
+    left: 702px;
+}
+.body{   
+    background: white;
+    height: 80%;   
+}
+.body .main{
+    background: red;
+    width: 1002px;
+    height: 90%;
+    position: relative;
+    left: 181px;
+    top: 25px;
+}
+.body .main .left{
+    position: relative;
+    background: blue;
+    width: 200px;
+    height:100%;
+
+}
+/* .body .main .left .leftmiddlespacing
+{
+    position: relative;
+    background: purple;
+    width: 100px;
+    height: 100%;
+    left: 200px;
+} */
+.body .main .middle{
+    position: relative;
+    background: red;
+    width: 200px;
+    height: 100%;
+    left: 200px;
+}
+.body .main .right{
+    position: relative;
+    background:blue;
+    width: 200px;
+    height: 100%;
+    left: 602px;
+}
+
+.footer{
+    position: relative;
+    background: gray;
+    width: 100%;
+    height: 5%; 
+}
+.footer .main{
+    position: relative;
+    background: green;
+    width: 1002px;
+    height: 70%;
+    left: 181px;
+    top: 6px;
+}
